@@ -1,0 +1,45 @@
+.calc-row {
+    height: 100vh;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.input-window {
+    text-align: end;
+    font-size: x-large;
+    width: 376px;
+    margin-bottom: 2px;
+}
+
+.card {
+    background-color: black;
+}
+
+.card-body {
+    margin-left: 15px;
+}
+
+#btn_clr {
+    background-color: red;
+    color: ghostwhite;
+    width: 376px;
+    margin-bottom: 2px;
+}
+
+.numb {
+    background-color: blue;
+    color: ghostwhite;
+    margin-bottom: 3px;
+    width: 73px;
+}
+
+.str {
+    width: 313px;
+}
+
+#btn_calc,
+#btn_minus {
+    height: 79px;
+    margin-left: 15px;
+    margin-right: 0;
+    width: 62px;
+}

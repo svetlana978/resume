@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700;1,800&family=Lobster&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 400px;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    background: url('https://stereo-news.com/wp-content/uploads/2020/12/mstiteli-final-2019-smotret-onlajn-1170x720.jpg') top left no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer .links {
+    margin-bottom: 50px;
+}
+
+footer .links>a {
+    color: rgb(107, 89, 69);
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: rgb(97, 96, 95);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.news {
+    background-color: #fff;
+    padding: 50px 0 32px;
+}
+
+article {
+    max-width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(110, 101, 87);
+}
+
+article a {
+    color: rgb(70, 70, 70);
+    text-decoration: none;
+}
+
+article a:hover {
+    color: rgb(79, 103, 182);
+}
+
+article h2 {
+    font-family: 'Lobster', cursive;
+    margin-bottom: 5px;
+}
+
+article p {
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+}
+
+.article-meta {
+    color: rgb(126, 126, 126);
+    margin-bottom: 5px;
+}
+
+article img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+article:nth-of-type(even) {
+    background-color: rgba(35, 67, 155, 0.342);
+}
+
+article:nth-of-type(-n+2) h2::after {
+    content: "NEW";
+    color: rgb(255, 142, 142);
+    vertical-align: top;
+    font-size: 0.7rem;
+}
+
+.news {
+    background-color: rgba(182, 232, 255, 0.192);
+}
+
+footer {
+    background-color: rgba(134, 196, 255, 0.384);
+}
+
+article p a {
+    color: rgb(0, 38, 255);
+}
